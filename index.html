@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Containers Layout</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .main-container {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .main-title {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .sub-container-wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .sub-container {
+            background: #e9f0ff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .sub-container h4 {
+            margin: 0 0 8px;
+            color: #2c3e50;
+        }
+
+        .sub-container p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .sub-container-wrapper {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .sub-container-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Container 1 -->
+<div class="main-container">
+    <div class="main-title">Overview</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>App Name</h4><p>Project Dashboard</p></div>
+        <div class="sub-container"><h4>Purpose</h4><p>Information Management</p></div>
+        <div class="sub-container"><h4>Users</h4><p>Students & Staff</p></div>
+        <div class="sub-container"><h4>Platform</h4><p>Web Application</p></div>
+        <div class="sub-container"><h4>Status</h4><p>Active</p></div>
+        <div class="sub-container"><h4>Version</h4><p>1.0</p></div>
+        <div class="sub-container"><h4>Category</h4><p>Education</p></div>
+        <div class="sub-container"><h4>Access</h4><p>Login Required</p></div>
+    </div>
+</div>
+
+<!-- Container 2 -->
+<div class="main-container">
+    <div class="main-title">Services</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>User Login</h4><p>Secure authentication</p></div>
+        <div class="sub-container"><h4>Data Storage</h4><p>Cloud-based</p></div>
+        <div class="sub-container"><h4>Reports</h4><p>Downloadable</p></div>
+        <div class="sub-container"><h4>Notifications</h4><p>Real-time alerts</p></div>
+        <div class="sub-container"><h4>User Support</h4><p>Help system</p></div>
+        <div class="sub-container"><h4>Analytics</h4><p>Usage tracking</p></div>
+        <div class="sub-container"><h4>Security</h4><p>Encrypted data</p></div>
+        <div class="sub-container"><h4>Backup</h4><p>Daily backups</p></div>
+    </div>
+</div>
+
+<!-- Container 3 -->
+<div class="main-container">
+    <div class="main-title">Features</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>Responsive UI</h4><p>Mobile friendly</p></div>
+        <div class="sub-container"><h4>Fast Load</h4><p>Optimized speed</p></div>
+        <div class="sub-container"><h4>Dashboard</h4><p>Central control</p></div>
+        <div class="sub-container"><h4>Search</h4><p>Quick access</p></div>
+        <div class="sub-container"><h4>Filters</h4><p>Organized data</p></div>
+        <div class="sub-container"><h4>Customization</h4><p>User settings</p></div>
+        <div class="sub-container"><h4>Accessibility</h4><p>Easy navigation</p></div>
+        <div class="sub-container"><h4>Updates</h4><p>Regular improvements</p></div>
+    </div>
+</div>
+
+<!-- Container 4 -->
+<div class="main-container">
+    <div class="main-title">Team</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>Project Lead</h4><p>Management</p></div>
+        <div class="sub-container"><h4>Frontend Dev</h4><p>UI Design</p></div>
+        <div class="sub-container"><h4>Backend Dev</h4><p>Server logic</p></div>
+        <div class="sub-container"><h4>Database Admin</h4><p>Data handling</p></div>
+        <div class="sub-container"><h4>UI/UX</h4><p>User experience</p></div>
+        <div class="sub-container"><h4>Tester</h4><p>Quality assurance</p></div>
+        <div class="sub-container"><h4>Support</h4><p>User help</p></div>
+        <div class="sub-container"><h4>Advisor</h4><p>Guidance</p></div>
+    </div>
+</div>
+
+<!-- Container 5 -->
+<div class="main-container">
+    <div class="main-title">Statistics</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>Users</h4><p>1,200+</p></div>
+        <div class="sub-container"><h4>Sessions</h4><p>5,000+</p></div>
+        <div class="sub-container"><h4>Reports</h4><p>350+</p></div>
+        <div class="sub-container"><h4>Uptime</h4><p>99.9%</p></div>
+        <div class="sub-container"><h4>Errors</h4><p>Minimal</p></div>
+        <div class="sub-container"><h4>Growth</h4><p>15% monthly</p></div>
+        <div class="sub-container"><h4>Downloads</h4><p>2,000+</p></div>
+        <div class="sub-container"><h4>Feedback</h4><p>Positive</p></div>
+    </div>
+</div>
+
+<!-- Container 6 -->
+<div class="main-container">
+    <div class="main-title">Projects</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>Attendance</h4><p>Completed</p></div>
+        <div class="sub-container"><h4>Results</h4><p>Live</p></div>
+        <div class="sub-container"><h4>Payments</h4><p>In Progress</p></div>
+        <div class="sub-container"><h4>Library</h4><p>Completed</p></div>
+        <div class="sub-container"><h4>Notice Board</h4><p>Active</p></div>
+        <div class="sub-container"><h4>Chat System</h4><p>Testing</p></div>
+        <div class="sub-container"><h4>Profile</h4><p>Completed</p></div>
+        <div class="sub-container"><h4>Admin Panel</h4><p>Under Review</p></div>
+    </div>
+</div>
+
+<!-- Container 7 -->
+<div class="main-container">
+    <div class="main-title">Testimonials</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>Student</h4><p>Very helpful</p></div>
+        <div class="sub-container"><h4>Teacher</h4><p>Easy to use</p></div>
+        <div class="sub-container"><h4>Admin</h4><p>Efficient system</p></div>
+        <div class="sub-container"><h4>User</h4><p>Clean design</p></div>
+        <div class="sub-container"><h4>Staff</h4><p>Reliable</p></div>
+        <div class="sub-container"><h4>Manager</h4><p>Well structured</p></div>
+        <div class="sub-container"><h4>Guest</h4><p>Impressive</p></div>
+        <div class="sub-container"><h4>Developer</h4><p>Scalable</p></div>
+    </div>
+</div>
+
+<!-- Container 8 -->
+<div class="main-container">
+    <div class="main-title">Contact Info</div>
+    <div class="sub-container-wrapper">
+        <div class="sub-container"><h4>Email</h4><p>info@example.com</p></div>
+        <div class="sub-container"><h4>Phone</h4><p>+977 98XXXXXXXX</p></div>
+        <div class="sub-container"><h4>Location</h4><p>Kathmandu</p></div>
+        <div class="sub-container"><h4>Website</h4><p>www.example.com</p></div>
+        <div class="sub-container"><h4>Facebook</h4><p>@example</p></div>
+        <div class="sub-container"><h4>Instagram</h4><p>@example</p></div>
+        <div class="sub-container"><h4>LinkedIn</h4><p>Company Page</p></div>
+        <div class="sub-container"><h4>Support</h4><p>24/7 Help</p></div>
+    </div>
+</div>
+
+</body>
+</html>
